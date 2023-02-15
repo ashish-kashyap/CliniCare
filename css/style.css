@@ -28,12 +28,12 @@ html{
 
 #logo img:hover{
     animation-name: a1;
-    animation-duration: 0.7s;
-    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 @keyframes a1{
     from{
-        transform: rotateZ(-45deg);
+        transform: rotateZ(0deg);
     }
     to{
         transform: rotateZ(720deg);
