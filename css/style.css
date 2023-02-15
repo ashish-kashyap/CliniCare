@@ -26,6 +26,20 @@ html{
     margin: 34px 45px;
 }
 
+#logo img:hover{
+    animation-name: a1;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+@keyframes a1{
+    from{
+        transform: rotateZ(-45deg);
+    }
+    to{
+        transform: rotateZ(720deg);
+    }
+}
+
 /* Navigation Bar : List Styling */
 #navbar::before{
     content: "";
