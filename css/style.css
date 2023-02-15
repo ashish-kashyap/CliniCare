@@ -123,6 +123,10 @@ html{
 }
 
 #products .box h2:hover{
+    transform: scale(1.1);
+}
+
+#products .box h2:hover{
     background-color: #f9f9f9;
 }
 
